@@ -89,7 +89,7 @@ footer {
   background-color: var(--footer-bg);
   color: white;
   margin-top: auto;
-  border-top: 10px solid var(--qualitas-teal);
+  border-top: 5px solid var(--qualitas-teal);
 }
 
 .footer-contact a {

@@ -179,3 +179,37 @@ footer {
   background-color: #128c7e;
   color: #fff;
 }
+
+      /* Estilos complementarios mínimos para la nueva página */
+      .icon-box svg {
+        width: 50px;
+        height: 50px;
+        stroke: var(--qualitas-purple);
+        margin-bottom: 15px;
+      }
+      .cov-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        transition: all 0.3s ease;
+      }
+      .step-num {
+        width: 40px;
+        height: 40px;
+        background: var(--qualitas-teal);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin: 0 auto 15px auto;
+      }
+      .accordion-button:not(.collapsed) {
+        background-color: rgba(0, 156, 166, 0.1);
+        color: var(--qualitas-purple);
+        font-weight: bold;
+      }
+      .check-icon { color: var(--qualitas-teal); font-weight: bold; }
+      .cross-icon { color: #dc3545; font-weight: bold; }
+    </style>

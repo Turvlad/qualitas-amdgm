@@ -92,11 +92,12 @@ footer {
   border-top: 10px solid var(--qualitas-teal);
 }
 
-.footer-contact a {
+.footer-contact {
   color: white;
   text-decoration: underline;
   font-weight: bold;
   transition: color 0.3s ease;
+  
 }
 
 .footer-contact a:hover {

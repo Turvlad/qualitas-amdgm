@@ -289,4 +289,12 @@ footer h6.text-muted {
         color: var(--qualitas-purple);
         margin-bottom: 1rem;
       }
-  
+  .brand-logo-container a {
+    color: #4a5568; /* El color gris de tu marca */
+    text-decoration: none; /* Quita la línea de abajo del enlace */
+}
+
+.brand-logo-container a:hover {
+    color: #2d3748; /* Opcional: Un gris más oscuro cuando pasas el mouse */
+}
+
